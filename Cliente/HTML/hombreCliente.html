@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOMBRE</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../EstilosMenus/EstilosMenu.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"/>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js">
+
+</head>
+<style>
+  nav,
+  .offcanvas {
+    background-color: #1e293b;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  @media (max-wiidth:768px) {
+    .navbar-nav>li:hover {
+      background-color: #0dcaf0;
+    }
+  }
+</style>
+
+<body>
+  <!--MENU START-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--NAV CONTAINER start-->
+    <div class="container-fluid">
+      <a href="MenuPrincipalCliente.php" class="navbar-brand text-info fw-semibold fs-4">SPORTFLEXX</a>
+
+      <!--NAV BUTTON-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--OFFCANVAS MAIN CONTAINER START-->
+      <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+        <div class="offcanvas-header" data-bs-theme="dark">
+          <h1 class="canvas-title text-info TituiloMenu ms-5">SPORTFLEXX</h1>
+          <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <!--OFFCANVAS MENU LINKS START-->
+        <div class="offcanvas-body d-flex flex-column justify-content-between px-0 Presentacion">
+          <ul class="navbar-nav my-2 justify-content-evenly">
+            <li class="nav-item p-3 py-md-1"><a href="hombreCliente.html" class="nav-link">HOMBRE</a></li>
+            <li class="nav-item p-3 py-md-1"><a href="mujerCliente.html" class="nav-link">MUJERES</a></li>
+            <li class="nav-item p-3 py-md-1"><a href="AccesoriosCliente.html" class="nav-link">ACCESORIOS</a></li>
+            <li class="nav-item p-3 py-md-1"><a href="ofertaCliente.html" class="nav-link">OFERTAS</a></li>
+            <li class="nav-item p-3 py-md-1"><a href="carritoCliente.html" class="nav-link" target="_blank" rel="noopener noreferrer"><i
+                  class="bi bi-cart"></i></a></li> <!--enlace redes sociales-->
+                  <li class="nav-item dropdown p-3 py-md-1">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i> Mi Cuenta
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="MiPerfil.php"><i class="fas fa-cog"></i> Perfil</a>
+                        
+                        <a class="dropdown-item" href="Logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+                    </div>
+                </li>
+            <div class="d-lg-none align-self-center py-3">
+              <a href=""><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+              <a href=""><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+              <a href=""><i class="bi bi-github px-2 text-info fs-2"></i></a>
+              <a href=""><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+            </div>
+          </ul>
+        </div>
+
+      </section>
+      <!--OFFCANVAS MAIN CONTAINER END-->
+    </div>
+  </nav>
+
+  <div class="titulo">
+    <div class="container">
+      <h3 class="text-left my-2">HOMBRE</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/Polo Manga Corta Rubi.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">475 SUPERVILLAIN</h5>
+              <p class="card-text">
+                COMPRESSION TEES
+                AZUL PETROLIO
+              </p>
+              <p class="precio">S/70.00</p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="1" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image1.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres//Polo Manga Corta.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RIBBED TANK 1PK</h5>
+              <p class="card-text">
+                AJUSTE MUSCULAR
+                BLANCO
+              </p>
+              <p class="precio">S/50.00<p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="2" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image2.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/Polo Manga Larga.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CASACA ADIDAS</h5>
+              <p class="card-text">
+                COLOR CLASSICS
+                AZUL
+              </p>
+              <p class="precio">S/270.00<p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="3" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image3.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/Casaca Adidas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">475 SUPERVILLAIN</h5>
+              <p class="card-text">
+                COMPRESSION TEES
+                AZUL PETROLIO
+              </p>
+              <p class="precio">S/70.00</p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="4" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image4.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/image5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RIBBED TANK 1PK</h5>
+              <p class="card-text">
+                AJUSTE MUSCULAR
+                BLANCO
+              </p>
+              <p class="precio">S/50.00</p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="5" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image5.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/image6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">475 SUPERVILLAIN</h5>
+              <p class="card-text">
+                COMPRESSION TEES
+                AZUL PETROLIO
+              </p>
+              <p class="precio">S/70.00</p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="6" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image6.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/image7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RIBBED TANK 1PK</h5>
+              <p class="card-text">
+                AJUSTE MUSCULAR
+                BLANCO
+              </p>
+              <p class="precio">S/50.00</p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="7" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image7.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/image8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CASACA ADIDAS</h5>
+              <p class="card-text">
+                COLOR CLASSICS
+                AZUL
+              </p>
+              <p class="precio">S/270.00<p>
+              <div>
+                <button class="btn btn-primary add-to-cart" data-producto-id="8" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image8.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../Imagenproductos/Hombres/image9.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CASACA ADIDAS</h5>
+              <p class="card-text">
+                COLOR CLASSICS
+                AZUL
+              </p>
+              <p class="precio">S/270.00<p>
+              <div>               
+                <button class="btn btn-primary add-to-cart" data-producto-id="9" data-producto-name="475 SUPERVILLAIN" data-producto-price="70.00" data-producto-image="../Imagenproductos/Hombres/image9.png">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>AYUDA</h2>
+                    <ul>
+                    <!--<li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Informacion de entrega</a></li>
+                        <li><a href="#">Politica de devolucion</a></li>
+                        <li><a href="#">Hacer una devolucion</a></li>
+                        <li><a href="#">Pedidios</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>MI CUENTA</h2>
+                    <ul>
+                        <li><a href="../PHP/Login2.php">Acceso</a></li>
+                        <li><a href="../PHP/registrarse.php">Registro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>PAGINAS</h2>
+                    <ul>
+                        <li><a href="QuienesSomos.html">Sobre Nosotros</a></li>
+                    <!--<li><a href="#">Recomendar un amigo</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Descuento Estudiantil</a></li>
+                        <li><a href="#">Declaracion de accesibilidad</a></li>
+                        <li><a href="#">lista de fabrica</a></li>
+                        <li><a href="#">Sostenibilidad</a></li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h3>UNETE A LA FAMILIA SPORTFLEXX</h3>
+                    <p>
+                        Reciba actualizaciones al instante, acceda a ofertas exclusivas,
+                        detalles de lanzamiento de productos y mas.
+                    </p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Enter your Email ..." aria-describedby="basic-addon2" />
+                        <span class="input-group-text" id="basic-addon2"><i
+                                class="fa fa-long-arrow-right"></i></span>
+                    </div>
+                    <h2>Síguenos en</h2>
+                    <p class="socials">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    </p>
+                    <div class="card-area">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-credit-card"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <script src="carrito-common.js"></script>
+    <script src="carritoCliente.js"></script>
+</html>

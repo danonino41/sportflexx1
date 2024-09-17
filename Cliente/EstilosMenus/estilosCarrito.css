@@ -1,0 +1,67 @@
+*{
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    background-color: #E2DDDB;
+
+}                   
+/*CARRITO*/
+.carritoContainer{
+    background-color: white;
+    margin: 10%;
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.compra{
+    display: flex;
+    flex-direction: row;
+}
+.carritoIzquierda{
+    display: flex;
+    flex-direction: column;
+}
+.carritoDerecha{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+fieldset{
+    margin: 20px;
+    padding: auto;
+    border: none;
+}
+.compraTalla{
+    display: flex;
+    flex-direction: row;
+}
+.selecTalla{
+    width: auto;
+    height: auto;
+    background-color: seashell;   
+}
+.resumenCodigo{
+    display: flex;
+    flex-direction: row;
+}
+.selectCodigo{
+    width: AUTO;
+    height: auto;
+    background-color: seashell;  
+}
+.imagenCompra{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+#comprar{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
